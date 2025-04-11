@@ -1,0 +1,19 @@
+#tadzmahal {
+position: relative; 
+}
+#tadzmahal:hover::after {
+content: "Тадж-Маха́л — мавзолей-мечеть, находящийся в Агре, Индия, на берегу реки Джамна. Здание начали строить примерно в 1632 году и завершили в 1653 году. Тадж-Махал представляет собой пятикупольное сооружение высотой 74 м. В 1983 году Тадж-Махал был назван объектом Всемирного наследия ЮНЕСКО.";
+position: absolute;
+transform: translateX(-35%);
+font-size: 1.2rem;  /* padding: 8px; */
+width: 1000px;
+background-color: rgb(190, 192, 237); 
+color: rgb(34, 18, 99); 
+text-align: center; 
+border-radius: 20px; 
+display: none; 
+padding: 1rem;
+}
+#tadzmahal:hover::after { display: block; }
+
+
