@@ -14,17 +14,6 @@ body { min-height: 100vh;
   height: 100%;
   z-index: -1;
 }
-.container {  
-  display: block;
-  margin-top: 10rem; color: white;
-  opacity: 0.8;
-  align-items: center;
-  position: absolute;
-  width: 500px;
-  height: 160px;
-  border: 3px dashed gray;
-  border-radius: 1rem;
-}
 h2 {
   font-size: 1.2rem;
   text-align: center;

@@ -1,6 +1,5 @@
-body{display: flex;}
 .butnfon{ display: block; 
-padding-top: 1.8rem;
+padding-top: .4rem;
 font-size: medium; color: red;
 position: absolute;
 } 
@@ -16,4 +15,14 @@ p{color: #fff;}
 .audiolist{ margin-bottom: 5px; font-size: 1.3rem;
 border: 1px dashed #a45be8; border-radius: 10px; 
 }
-    
+img{display: none;}
+#image1, #image2, #image3, #image4, #image5, #image6
+{position: absolute;
+margin-top: 6.5rem;
+}
+#marq1, #marq2, #marq3, #marq4, #marq5, #marq6{
+position: absolute;
+display: none;
+margin-top: 3.5rem;
+color: #f0eaea;
+}
